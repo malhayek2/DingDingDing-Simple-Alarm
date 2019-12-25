@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF26DB83214373A800D2FE22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF26DB82214373A800D2FE22 /* AppDelegate.swift */; };
+		BF26DB88214373A800D2FE22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF26DB86214373A800D2FE22 /* Main.storyboard */; };
+		BF26DB8A214373A900D2FE22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF26DB89214373A900D2FE22 /* Assets.xcassets */; };
+		BF26DB8D214373AA00D2FE22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF26DB8B214373A900D2FE22 /* LaunchScreen.storyboard */; };
+		BF26DB98214373AA00D2FE22 /* SimpleAlarmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF26DB97214373AA00D2FE22 /* SimpleAlarmTests.swift */; };
+		BF26DBA3214373AA00D2FE22 /* SimpleAlarmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF26DBA2214373AA00D2FE22 /* SimpleAlarmUITests.swift */; };
+		BF26DBB12143778900D2FE22 /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF26DBB02143778900D2FE22 /* Alarm.swift */; };
+		BF26DBB321437D0600D2FE22 /* AlarmTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF26DBB221437D0600D2FE22 /* AlarmTableViewController.swift */; };
+		BF26DBB521438DAD00D2FE22 /* AddAlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF26DBB421438DAD00D2FE22 /* AddAlarmViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF26DB94214373AA00D2FE22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF26DB77214373A800D2FE22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF26DB7E214373A800D2FE22;
+			remoteInfo = SimpleAlarm;
+		};
+		BF26DB9F214373AA00D2FE22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF26DB77214373A800D2FE22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF26DB7E214373A800D2FE22;
+			remoteInfo = SimpleAlarm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF26DB7F214373A800D2FE22 /* SimpleAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF26DB82214373A800D2FE22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF26DB87214373A800D2FE22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF26DB89214373A900D2FE22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF26DB8C214373AA00D2FE22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF26DB8E214373AA00D2FE22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF26DB93214373AA00D2FE22 /* SimpleAlarmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleAlarmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF26DB97214373AA00D2FE22 /* SimpleAlarmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAlarmTests.swift; sourceTree = "<group>"; };
+		BF26DB99214373AA00D2FE22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF26DB9E214373AA00D2FE22 /* SimpleAlarmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleAlarmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF26DBA2214373AA00D2FE22 /* SimpleAlarmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAlarmUITests.swift; sourceTree = "<group>"; };
+		BF26DBA4214373AA00D2FE22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF26DBB02143778900D2FE22 /* Alarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alarm.swift; sourceTree = "<group>"; };
+		BF26DBB221437D0600D2FE22 /* AlarmTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmTableViewController.swift; sourceTree = "<group>"; };
+		BF26DBB421438DAD00D2FE22 /* AddAlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAlarmViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF26DB7C214373A800D2FE22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF26DB90214373AA00D2FE22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF26DB9B214373AA00D2FE22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF26DB76214373A800D2FE22 = {
+			isa = PBXGroup;
+			children = (
+				BF26DB81214373A800D2FE22 /* SimpleAlarm */,
+				BF26DB96214373AA00D2FE22 /* SimpleAlarmTests */,
+				BF26DBA1214373AA00D2FE22 /* SimpleAlarmUITests */,
+				BF26DB80214373A800D2FE22 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF26DB80214373A800D2FE22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF26DB7F214373A800D2FE22 /* SimpleAlarm.app */,
+				BF26DB93214373AA00D2FE22 /* SimpleAlarmTests.xctest */,
+				BF26DB9E214373AA00D2FE22 /* SimpleAlarmUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF26DB81214373A800D2FE22 /* SimpleAlarm */ = {
+			isa = PBXGroup;
+			children = (
+				BF26DB82214373A800D2FE22 /* AppDelegate.swift */,
+				BF26DB86214373A800D2FE22 /* Main.storyboard */,
+				BF26DB89214373A900D2FE22 /* Assets.xcassets */,
+				BF26DB8B214373A900D2FE22 /* LaunchScreen.storyboard */,
+				BF26DB8E214373AA00D2FE22 /* Info.plist */,
+				BF26DBB02143778900D2FE22 /* Alarm.swift */,
+				BF26DBB221437D0600D2FE22 /* AlarmTableViewController.swift */,
+				BF26DBB421438DAD00D2FE22 /* AddAlarmViewController.swift */,
+			);
+			path = SimpleAlarm;
+			sourceTree = "<group>";
+		};
+		BF26DB96214373AA00D2FE22 /* SimpleAlarmTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF26DB97214373AA00D2FE22 /* SimpleAlarmTests.swift */,
+				BF26DB99214373AA00D2FE22 /* Info.plist */,
+			);
+			path = SimpleAlarmTests;
+			sourceTree = "<group>";
+		};
+		BF26DBA1214373AA00D2FE22 /* SimpleAlarmUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF26DBA2214373AA00D2FE22 /* SimpleAlarmUITests.swift */,
+				BF26DBA4214373AA00D2FE22 /* Info.plist */,
+			);
+			path = SimpleAlarmUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF26DB7E214373A800D2FE22 /* SimpleAlarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF26DBA7214373AA00D2FE22 /* Build configuration list for PBXNativeTarget "SimpleAlarm" */;
+			buildPhases = (
+				BF26DB7B214373A800D2FE22 /* Sources */,
+				BF26DB7C214373A800D2FE22 /* Frameworks */,
+				BF26DB7D214373A800D2FE22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleAlarm;
+			productName = SimpleAlarm;
+			productReference = BF26DB7F214373A800D2FE22 /* SimpleAlarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF26DB92214373AA00D2FE22 /* SimpleAlarmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF26DBAA214373AA00D2FE22 /* Build configuration list for PBXNativeTarget "SimpleAlarmTests" */;
+			buildPhases = (
+				BF26DB8F214373AA00D2FE22 /* Sources */,
+				BF26DB90214373AA00D2FE22 /* Frameworks */,
+				BF26DB91214373AA00D2FE22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF26DB95214373AA00D2FE22 /* PBXTargetDependency */,
+			);
+			name = SimpleAlarmTests;
+			productName = SimpleAlarmTests;
+			productReference = BF26DB93214373AA00D2FE22 /* SimpleAlarmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF26DB9D214373AA00D2FE22 /* SimpleAlarmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF26DBAD214373AA00D2FE22 /* Build configuration list for PBXNativeTarget "SimpleAlarmUITests" */;
+			buildPhases = (
+				BF26DB9A214373AA00D2FE22 /* Sources */,
+				BF26DB9B214373AA00D2FE22 /* Frameworks */,
+				BF26DB9C214373AA00D2FE22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF26DBA0214373AA00D2FE22 /* PBXTargetDependency */,
+			);
+			name = SimpleAlarmUITests;
+			productName = SimpleAlarmUITests;
+			productReference = BF26DB9E214373AA00D2FE22 /* SimpleAlarmUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF26DB77214373A800D2FE22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Cooldown;
+				TargetAttributes = {
+					BF26DB7E214373A800D2FE22 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1100;
+					};
+					BF26DB92214373AA00D2FE22 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1100;
+						TestTargetID = BF26DB7E214373A800D2FE22;
+					};
+					BF26DB9D214373AA00D2FE22 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1100;
+						TestTargetID = BF26DB7E214373A800D2FE22;
+					};
+				};
+			};
+			buildConfigurationList = BF26DB7A214373A800D2FE22 /* Build configuration list for PBXProject "SimpleAlarm" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF26DB76214373A800D2FE22;
+			productRefGroup = BF26DB80214373A800D2FE22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF26DB7E214373A800D2FE22 /* SimpleAlarm */,
+				BF26DB92214373AA00D2FE22 /* SimpleAlarmTests */,
+				BF26DB9D214373AA00D2FE22 /* SimpleAlarmUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF26DB7D214373A800D2FE22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF26DB8D214373AA00D2FE22 /* LaunchScreen.storyboard in Resources */,
+				BF26DB8A214373A900D2FE22 /* Assets.xcassets in Resources */,
+				BF26DB88214373A800D2FE22 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF26DB91214373AA00D2FE22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF26DB9C214373AA00D2FE22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF26DB7B214373A800D2FE22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF26DBB521438DAD00D2FE22 /* AddAlarmViewController.swift in Sources */,
+				BF26DB83214373A800D2FE22 /* AppDelegate.swift in Sources */,
+				BF26DBB321437D0600D2FE22 /* AlarmTableViewController.swift in Sources */,
+				BF26DBB12143778900D2FE22 /* Alarm.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF26DB8F214373AA00D2FE22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF26DB98214373AA00D2FE22 /* SimpleAlarmTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF26DB9A214373AA00D2FE22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF26DBA3214373AA00D2FE22 /* SimpleAlarmUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF26DB95214373AA00D2FE22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF26DB7E214373A800D2FE22 /* SimpleAlarm */;
+			targetProxy = BF26DB94214373AA00D2FE22 /* PBXContainerItemProxy */;
+		};
+		BF26DBA0214373AA00D2FE22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF26DB7E214373A800D2FE22 /* SimpleAlarm */;
+			targetProxy = BF26DB9F214373AA00D2FE22 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF26DB86214373A800D2FE22 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF26DB87214373A800D2FE22 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF26DB8B214373A900D2FE22 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF26DB8C214373AA00D2FE22 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF26DBA5214373AA00D2FE22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF26DBA6214373AA00D2FE22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF26DBA8214373AA00D2FE22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P53TMVH27X;
+				INFOPLIST_FILE = SimpleAlarm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Cooldown.SimpleAlarm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF26DBA9214373AA00D2FE22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P53TMVH27X;
+				INFOPLIST_FILE = SimpleAlarm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Cooldown.SimpleAlarm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BF26DBAB214373AA00D2FE22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P53TMVH27X;
+				INFOPLIST_FILE = SimpleAlarmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Cooldown.SimpleAlarmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleAlarm.app/SimpleAlarm";
+			};
+			name = Debug;
+		};
+		BF26DBAC214373AA00D2FE22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P53TMVH27X;
+				INFOPLIST_FILE = SimpleAlarmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Cooldown.SimpleAlarmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleAlarm.app/SimpleAlarm";
+			};
+			name = Release;
+		};
+		BF26DBAE214373AA00D2FE22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P53TMVH27X;
+				INFOPLIST_FILE = SimpleAlarmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Cooldown.SimpleAlarmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimpleAlarm;
+			};
+			name = Debug;
+		};
+		BF26DBAF214373AA00D2FE22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P53TMVH27X;
+				INFOPLIST_FILE = SimpleAlarmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Cooldown.SimpleAlarmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimpleAlarm;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF26DB7A214373A800D2FE22 /* Build configuration list for PBXProject "SimpleAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF26DBA5214373AA00D2FE22 /* Debug */,
+				BF26DBA6214373AA00D2FE22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF26DBA7214373AA00D2FE22 /* Build configuration list for PBXNativeTarget "SimpleAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF26DBA8214373AA00D2FE22 /* Debug */,
+				BF26DBA9214373AA00D2FE22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF26DBAA214373AA00D2FE22 /* Build configuration list for PBXNativeTarget "SimpleAlarmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF26DBAB214373AA00D2FE22 /* Debug */,
+				BF26DBAC214373AA00D2FE22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF26DBAD214373AA00D2FE22 /* Build configuration list for PBXNativeTarget "SimpleAlarmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF26DBAE214373AA00D2FE22 /* Debug */,
+				BF26DBAF214373AA00D2FE22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF26DB77214373A800D2FE22 /* Project object */;
+}
